@@ -8,17 +8,23 @@
 
 /* Begin PBXBuildFile section */
 		CEEAB2A32C18E25600A7E265 /* Daniel_CoffeeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEEAB2A22C18E25600A7E265 /* Daniel_CoffeeApp.swift */; };
-		CEEAB2A52C18E25600A7E265 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEEAB2A42C18E25600A7E265 /* ContentView.swift */; };
 		CEEAB2A72C18E25900A7E265 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CEEAB2A62C18E25900A7E265 /* Assets.xcassets */; };
 		CEEAB2AA2C18E25900A7E265 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CEEAB2A92C18E25900A7E265 /* Preview Assets.xcassets */; };
+		CEEAB2B12C18FB6600A7E265 /* OrderListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEEAB2B02C18FB6600A7E265 /* OrderListView.swift */; };
+		CEEAB2B32C18FBEE00A7E265 /* NewOrderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEEAB2B22C18FBEE00A7E265 /* NewOrderView.swift */; };
+		CEEAB2B52C18FC1A00A7E265 /* OrderDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEEAB2B42C18FC1A00A7E265 /* OrderDetailView.swift */; };
+		CEEAB2B72C18FDD000A7E265 /* CoffeeOrderManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEEAB2B62C18FDD000A7E265 /* CoffeeOrderManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		CEEAB29F2C18E25600A7E265 /* Daniel_Coffee.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Daniel_Coffee.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CEEAB2A22C18E25600A7E265 /* Daniel_CoffeeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Daniel_CoffeeApp.swift; sourceTree = "<group>"; };
-		CEEAB2A42C18E25600A7E265 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		CEEAB2A62C18E25900A7E265 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CEEAB2A92C18E25900A7E265 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		CEEAB2B02C18FB6600A7E265 /* OrderListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderListView.swift; sourceTree = "<group>"; };
+		CEEAB2B22C18FBEE00A7E265 /* NewOrderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewOrderView.swift; sourceTree = "<group>"; };
+		CEEAB2B42C18FC1A00A7E265 /* OrderDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderDetailView.swift; sourceTree = "<group>"; };
+		CEEAB2B62C18FDD000A7E265 /* CoffeeOrderManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoffeeOrderManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,8 +57,11 @@
 		CEEAB2A12C18E25600A7E265 /* Daniel_Coffee */ = {
 			isa = PBXGroup;
 			children = (
+				CEEAB2B62C18FDD000A7E265 /* CoffeeOrderManager.swift */,
+				CEEAB2B42C18FC1A00A7E265 /* OrderDetailView.swift */,
+				CEEAB2B22C18FBEE00A7E265 /* NewOrderView.swift */,
+				CEEAB2B02C18FB6600A7E265 /* OrderListView.swift */,
 				CEEAB2A22C18E25600A7E265 /* Daniel_CoffeeApp.swift */,
-				CEEAB2A42C18E25600A7E265 /* ContentView.swift */,
 				CEEAB2A62C18E25900A7E265 /* Assets.xcassets */,
 				CEEAB2A82C18E25900A7E265 /* Preview Content */,
 			);
@@ -137,8 +146,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CEEAB2A52C18E25600A7E265 /* ContentView.swift in Sources */,
+				CEEAB2B72C18FDD000A7E265 /* CoffeeOrderManager.swift in Sources */,
 				CEEAB2A32C18E25600A7E265 /* Daniel_CoffeeApp.swift in Sources */,
+				CEEAB2B32C18FBEE00A7E265 /* NewOrderView.swift in Sources */,
+				CEEAB2B12C18FB6600A7E265 /* OrderListView.swift in Sources */,
+				CEEAB2B52C18FC1A00A7E265 /* OrderDetailView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

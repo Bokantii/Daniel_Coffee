@@ -11,7 +11,7 @@ import SwiftUI
 struct Daniel_CoffeeApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            OrderListView()
         }
     }
 }
